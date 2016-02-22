@@ -31,7 +31,7 @@ Once the extension is installed, simply use it in your code by  :
 'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@app/views/layouts' => '@vendor/farsidesign/yii2-sbadminrtl/views/yiisoft/layouts',
+                    '@app/views' => '@vendor/farsidesign/yii2-sbadminrtl/views/yiisoft',
                 ],
             ],
         ],
