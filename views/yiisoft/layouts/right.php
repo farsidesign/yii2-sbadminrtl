@@ -41,7 +41,7 @@ use yii\bootstrap\Nav;
                     <li>
                     <?= Html::a(
 				        '<i class="fa fa-sign-out fa-fw"></i> '.Yii::t('sbadmin','Logout'),
-				        Url::to(['/site/logout', 'view' => 'logout'])
+				        Url::to(['/site/logout'],['data-method' => 'post'])
 			             ) ?>
                     </li>
            </ul>
